@@ -1,0 +1,15 @@
+{
+  "name": "brunch-arrogantular",
+  "homepage": "https://github.com/row1/brunch-arrogantular",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angularjs": "~1.4.3"
+  }
+}
