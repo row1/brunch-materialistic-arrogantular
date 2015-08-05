@@ -10,6 +10,8 @@
     "tests"
   ],
   "dependencies": {
-    "angularjs": "~1.4.3"
+    "angular": "~1.4.3",
+    "angular-material": "~0.10.0",
+    "ui-router": "~0.2.15"
   }
 }

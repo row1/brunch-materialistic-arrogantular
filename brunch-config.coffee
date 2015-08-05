@@ -24,4 +24,4 @@ exports.config =
             'app/styles/sardless.scss'
           ]        
     templates:
-      joinTo: 'app.js'
+      joinTo: 'javascript/templates.js'

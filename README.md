@@ -1,6 +1,6 @@
 # Brunch app
 
-This is an opinionated AngularJS skeleton for brunch [Brunch](http://brunch.io).
+This is an opinionated AngularJS skeleton for [Brunch](http://brunch.io).  The AngularJS style guide is based upon [John Papa's guide](https://github.com/johnpapa/angular-styleguide).
 
 ## Getting started
 * Install (if you don't have them):
