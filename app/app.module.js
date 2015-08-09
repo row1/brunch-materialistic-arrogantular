@@ -4,7 +4,8 @@
   var dependencies = [
     'ngMaterial',
     'templates',
-    'app.home'
+    'app.home',
+    'app.posts'
   ];
    
   angular.module('app', dependencies)
@@ -12,7 +13,7 @@
   config.$inject = ['$urlRouterProvider', '$mdThemingProvider'];
   
   function config($urlRouterProvider, $mdThemingProvider) {
-    $urlRouterProvider.otherwise('');
+    $urlRouterProvider.otherwise('/home');
     
     $mdThemingProvider.theme('default')
     .primaryPalette('green')

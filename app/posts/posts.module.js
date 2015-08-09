@@ -1,19 +1,19 @@
 (function () {
 
   'use strict';
-  angular.module('app.home', ['ui.router', 'app.services'])
+  angular.module('app.posts', ['ui.router', 'app.services'])
     .config(config);
 
   config.$inject = ['$stateProvider'];
 
   function config($stateProvider) {
-    $stateProvider.state('home', {
-      url: '/home',
+    $stateProvider.state('posts', {
+      url: '/posts',
       views: {
         'main': {
-          controller: 'HomeCtrl',
-          controllerAs: 'homeCtrl',
-          templateUrl: 'app/home/home.tpl.html'
+          controller: 'PostsCtrl',
+          controllerAs: 'postsCtrl',
+          templateUrl: 'app/posts/posts.tpl.html'
         }
       },
       data: {

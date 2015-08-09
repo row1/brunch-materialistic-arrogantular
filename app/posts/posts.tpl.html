@@ -1,0 +1,12 @@
+<div class="posts">
+  <md-list class="md-whiteframe-z1">
+    <md-list-item class="md-2-line" ng-repeat="post in postsCtrl.posts">
+      <img ng-src="{{post.thumbnailUrl}}" class="md-avatar" alt="{{post.title}}" />
+      <div class="md-list-item-text">
+        <h3>{{post.title}}</h3>
+        <p>{{post.title}}</p>
+      </div>
+      <md-divider ng-hide="$last"></md-divider>
+    </md-list-item>
+  </md-list>
+</div>  
