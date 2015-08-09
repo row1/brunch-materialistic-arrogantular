@@ -7,17 +7,18 @@
   config.$inject = ['$stateProvider'];
 
   function config($stateProvider) {
-    $stateProvider.state('post', {
-      url: '/posts/{id:[0-9]+}',
+    $stateProvider.state('posts.detail', {
+      url: '/{id:[0-9]+}',
       views: {
-        'main': {
+        'main@': {
           controller: 'PostCtrl',
           controllerAs: 'postCtrl',
           templateUrl: 'app/post/post.tpl.html'
         }
       },
       data: {
-        pageTitle: 'Post'
+        pageTitle: 'Post',
+        viewClass: 'post'
       }
     });
   }

@@ -17,7 +17,8 @@
         }
       },
       data: {
-        pageTitle: 'Home'
+        pageTitle: 'Home',
+        viewClass: 'home'
       }
     });
   }

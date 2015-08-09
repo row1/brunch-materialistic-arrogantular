@@ -17,7 +17,8 @@
         }
       },
       data: {
-        pageTitle: 'Posts'
+        pageTitle: 'Posts',
+        viewClass: 'posts'
       }
     });
   }
