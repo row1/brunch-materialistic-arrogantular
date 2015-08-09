@@ -9,8 +9,9 @@
   <meta name="description" content="An opinionated AngularJS skeleton for Brunch">
   <meta name="author" content="Row1">
 
-  <title>Brunch Arrogantular</title>
+  <title >Brunch Arrogantular :: {{$state.current.data.pageTitle}}</title>
   <link rel="stylesheet" href="stylesheets/vendor.css">
+  <link rel="stylesheet" href="stylesheets/app.css">
 </head>
 
 <body layout="column">
@@ -20,13 +21,16 @@
       <span>Arrogantular</span>
       <!-- fill up the space between left and right area -->
       <span flex></span>
-      <md-button class="md-accent md-raised md-hue-1 md-button" ui-sref="home" ui-sref-active="md-primary">
+      <md-button class="md-primary md-raised md-hue-1 md-button" ui-sref="home" ui-sref-active="md-accent">
         Home
       </md-button>
+      <md-button class="md-primary md-raised md-hue-1 md-button" ui-sref="posts" ui-sref-active="md-accent">
+        Posts
+      </md-button>      
     </div>
   </md-toolbar>
 
-  <md-content layout="column" flex class="md-padding" ui-view="main">
+  <md-content layout="column" flex class="md-padding" ng-class="$state.current.name" ui-view="main">
   </md-content>
 
   <script src="javascript/vendor.js"></script>
