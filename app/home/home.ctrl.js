@@ -34,7 +34,8 @@
           rowSpan: layout.rs,
           colSpan: layout.cs,
           imageUrl: photo.thumbnailUrl,
-          title: title
+          title: title,
+          id: photo.id
         };
 
         vm.grid.push(gridTitle);
