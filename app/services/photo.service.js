@@ -8,13 +8,17 @@
 
   function PhotoService($resource) {
     this.all = all;
+    this.get = get;
 
-    var photos = $resource('http://jsonplaceholder.typicode.com/photos', {
-      _limit: 11
-    });
+    var photos = $resource('http://jsonplaceholder.typicode.com/photos/:id');
 
     function all() {
-      return photos.query().$promise;
+      return photos.query({
+        _limit: 11
+      }).$promise;
+    }
+    function get(id) {
+      return photos.get({id: id}).$promise;
     }
   }
 }());
