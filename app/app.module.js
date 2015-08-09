@@ -5,7 +5,8 @@
     'ngMaterial',
     'templates',
     'app.home',
-    'app.posts'
+    'app.posts',
+    'app.post'
   ];
    
   angular.module('app', dependencies)
