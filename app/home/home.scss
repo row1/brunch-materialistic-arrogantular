@@ -1,0 +1,10 @@
+md-content.home {
+  md-grid-list {
+    margin: 8px;
+  }
+  md-grid-tile {
+    transition: all 400ms ease-out 50ms;
+    background-color:  #72d572;
+    cursor: pointer;
+  }  
+}

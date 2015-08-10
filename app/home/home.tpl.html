@@ -1,0 +1,14 @@
+<md-grid-list
+        md-cols-sm="1" md-cols-md="2" md-cols-gt-md="4"
+        md-row-height-gt-md="1:1" md-row-height="2:2"
+        md-gutter="12px" md-gutter-gt-sm="8px">
+  <md-grid-tile ng-repeat="gridTitle in homeCtrl.grid"
+                md-rowspan="{{gridTitle.rowSpan}}" 
+                md-colspan="{{gridTitle.colSpan}}" md-colspan-sm="1" 
+                ng-click="$state.go('posts.detail', { id: gridTitle.id })">
+    <img ng-src="{{gridTitle.imageUrl}}" />
+    <md-grid-tile-footer>
+      <h3>{{gridTitle.title}}</h3>
+    </md-grid-tile-footer>
+  </md-grid-tile>
+</md-grid-list>

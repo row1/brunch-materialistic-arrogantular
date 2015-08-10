@@ -1,0 +1,11 @@
+<md-list class="md-whiteframe-z1">
+  <md-list-item class="md-2-line" ng-repeat="post in postsCtrl.posts" 
+                ng-init="postStateUrl='posts.detail({ id: post.id })'">
+    <img ng-src="{{post.thumbnailUrl}}" class="md-avatar" alt="{{post.title}}" />
+    <div class="md-list-item-text">
+      <h3><a ui-sref="{{postStateUrl}}" class="md-button md-default-theme md-button-inline">{{post.title}}</a></h3>
+      <p><a ui-sref="{{postStateUrl}}" class="md-button md-default-theme md-button-inline">{{post.title}}</a></p>
+    </div>
+    <md-divider ng-hide="$last"></md-divider>
+  </md-list-item>
+</md-list>

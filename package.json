@@ -1,0 +1,24 @@
+{
+  "name": "brunch-arrogantular",
+  "description": "Opinionated AngularJS using Brunch",
+  "author": "Rowan Youngson",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:row1/brunch-arrogantular.git"
+  },
+  "scripts": {
+    "start": "brunch watch --server",
+    "postinstall": "bower install"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "angularjs-templates-brunch": "^1.0.0",
+    "clean-css-brunch": ">= 1.0 < 1.9",
+    "css-brunch": ">= 1.0 < 1.9",
+    "javascript-brunch": ">= 1.0 < 1.9",
+    "sass-brunch": "^1.8.10",
+    "uglify-js-brunch": ">= 1.0 < 1.9"
+  }
+}
