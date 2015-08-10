@@ -18,10 +18,6 @@ exports.config =
       defaultExtension: 'scss'
       joinTo:
         'stylesheets/app.css': /^app/
-        'stylesheets/vendor.css': /^bower_components/
-      order:
-        before: [
-            'app/styles/sardless.scss'
-          ]        
+        'stylesheets/vendor.css': /^bower_components/      
     templates:
       joinTo: 'javascript/templates.js'
