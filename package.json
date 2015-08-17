@@ -9,15 +9,21 @@
   },
   "scripts": {
     "start": "brunch watch --server",
+    "test": "karma start ./karma.config.js",
+    "prod": "brunch build --production",
     "postinstall": "bower install"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "angularjs-templates-brunch": "^1.0.0",
     "clean-css-brunch": ">= 1.0 < 1.9",
     "css-brunch": ">= 1.0 < 1.9",
+    "jasmine-core": "^2.3.4",
     "javascript-brunch": ">= 1.0 < 1.9",
+    "karma": "^0.13.9",
+    "karma-jasmine": "^0.3.6",
+    "karma-phantomjs-launcher": "^0.2.1",
+    "phantomjs": "^1.9.18",
     "sass-brunch": "^1.8.10",
     "uglify-js-brunch": ">= 1.0 < 1.9"
   }
