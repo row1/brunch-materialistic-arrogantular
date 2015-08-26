@@ -2,7 +2,7 @@
   'use strict';
 
   angular.module('app.services')
-    .service('PhotoService', PhotoService);
+    .service('photoService', PhotoService);
 
   PhotoService.$inject = ['$resource'];
 

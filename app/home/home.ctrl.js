@@ -4,9 +4,9 @@
   angular.module('app.home')
     .controller('HomeCtrl', HomeCtrl);
 
-  HomeCtrl.$inject = ['PhotoService'];
+  HomeCtrl.$inject = ['photoService'];
   
-  function HomeCtrl(PhotoService) {
+  function HomeCtrl(photoService) {
 
     var vm = this;
     vm.grid = [];
@@ -14,7 +14,7 @@
     activate();
     
     function activate() {
-      PhotoService.all().then(createGrid);
+      photoService.all().then(createGrid);
     }
     
     function createGrid(photos){

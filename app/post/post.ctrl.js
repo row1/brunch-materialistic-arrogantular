@@ -4,13 +4,13 @@
   angular.module('app.post')
     .controller('PostCtrl', PostCtrl);
 
-  PostCtrl.$inject = ['PhotoService', '$stateParams'];
+  PostCtrl.$inject = ['photoService', '$stateParams'];
   
-  function PostCtrl(PhotoService, $stateParams) {
+  function PostCtrl(photoService, $stateParams) {
     var vm = this;
     vm.post = undefined;
     
-    PhotoService.get($stateParams.id).then(function(data) {
+    photoService.get($stateParams.id).then(function(data) {
       vm.post = data;
     });
   }
