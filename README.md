@@ -2,7 +2,7 @@
 
 This is an opinionated AngularJS skeleton for [Brunch](http://brunch.io).  The AngularJS style guide is based upon [John Papa's guide](https://github.com/johnpapa/angular-styleguide).
 
-This is a work in progress but the current version (0.0.1) can be viewed at [http://row1.github.io/brunch-materialistic-arrogantular/](http://row1.github.io/brunch-materialistic-arrogantular/).
+This is a work in progress but the current version (0.0.2) can be viewed at [http://row1.github.io/brunch-materialistic-arrogantular/](http://row1.github.io/brunch-materialistic-arrogantular/).
 
 ## Getting started
 * Install (if you don't have them):
