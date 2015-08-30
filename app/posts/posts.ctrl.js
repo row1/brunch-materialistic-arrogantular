@@ -4,14 +4,14 @@
   angular.module('app.posts')
     .controller('PostsCtrl', PostsCtrl);
 
-  PostsCtrl.$inject = ['PhotoService'];
+  PostsCtrl.$inject = ['photoService'];
   
-  function PostsCtrl(PhotoService) {
+  function PostsCtrl(photoService) {
 
     var vm = this;
     vm.posts = [];
     
-    PhotoService.all().then(function(data) {
+    photoService.all().then(function(data) {
       vm.posts = data;
     });
   }
