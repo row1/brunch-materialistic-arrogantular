@@ -2,15 +2,19 @@
   'use strict';
 
   angular.module('app.services')
-    .service('photoService', PhotoService);
+    .factory('photoService', photoService);
 
-  PhotoService.$inject = ['$resource'];
+  photoService.$inject = ['$resource'];
 
-  function PhotoService($resource) {
-    this.all = all;
-    this.get = get;
-
+  function photoService($resource) {
     var photos = $resource('http://jsonplaceholder.typicode.com/photos/:id');
+    
+    var service = {
+      all: all,
+      get: get
+    };
+    
+    return service;
 
     function all() {
       return photos.query({
