@@ -2,7 +2,7 @@
   "name": "brunch-arrogantular",
   "description": "Opinionated AngularJS using Brunch",
   "author": "Rowan Youngson",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "repository": {
     "type": "git",
     "url": "git@github.com:row1/brunch-arrogantular.git"
@@ -20,6 +20,7 @@
     "css-brunch": ">= 1.0 < 1.9",
     "jasmine-core": "^2.3.4",
     "javascript-brunch": ">= 1.0 < 1.9",
+    "jshint-brunch": "^1.8.0",
     "karma": "^0.13.9",
     "karma-jasmine": "^0.3.6",
     "karma-phantomjs-launcher": "^0.2.1",
