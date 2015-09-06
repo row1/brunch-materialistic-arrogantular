@@ -19,6 +19,7 @@
     "auto-reload-brunch": "^1.8.0",
     "clean-css-brunch": ">= 1.0 < 1.9",
     "css-brunch": ">= 1.0 < 1.9",
+    "git-digest-brunch": "^1.0.3",
     "jasmine-core": "^2.3.4",
     "javascript-brunch": ">= 1.0 < 1.9",
     "jshint-brunch": "^1.8.0",
