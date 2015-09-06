@@ -8,7 +8,12 @@ exports.config =
   modules:
     definition: false
     wrapper: false
-  
+
+  #Only need to explicitly set the hint pattern if using auto-reload
+  plugins:
+      jshint:
+        pattern: /^app\/.*\.js$/
+    
   files:
     javascripts:
       joinTo:
