@@ -8,6 +8,9 @@ exports.config =
   modules:
     definition: false
     wrapper: false
+    
+  npm:
+    enabled: false  
 
   #Only need to explicitly set the hint pattern if using auto-reload
   plugins:
@@ -24,7 +27,6 @@ exports.config =
             'app/**/*.module.js'
           ]        
     stylesheets:
-      defaultExtension: 'scss'
       joinTo:
         'stylesheets/app.css': /^app/
         'stylesheets/vendor.css': /^bower_components/      
