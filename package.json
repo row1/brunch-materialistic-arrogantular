@@ -3,6 +3,7 @@
   "description": "Opinionated AngularJS using Brunch",
   "author": "Rowan Youngson",
   "version": "0.0.3",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git@github.com:row1/brunch-arrogantular.git"
@@ -15,19 +16,19 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "angularjs-templates-brunch": "^1.0.0",
-    "auto-reload-brunch": "^1.8.0",
-    "clean-css-brunch": ">= 1.0 < 1.9",
-    "css-brunch": ">= 1.0 < 1.9",
-    "git-digest-brunch": "^1.0.3",
-    "jasmine-core": "^2.3.4",
-    "javascript-brunch": ">= 1.0 < 1.9",
-    "jshint-brunch": "^1.8.0",
-    "karma": "^0.13.9",
-    "karma-jasmine": "^0.3.6",
-    "karma-phantomjs-launcher": "^0.2.1",
-    "phantomjs": "^1.9.18",
-    "sass-brunch": "^1.8.10",
-    "uglify-js-brunch": ">= 1.0 < 1.9"
+    "angularjs-templates-brunch": "*",
+    "auto-reload-brunch": "^2.7.1",
+    "clean-css-brunch": "^2.0.0",
+    "css-brunch": "^2.6.1",
+    "git-digest-brunch": "*",
+    "jasmine-core": "*",
+    "javascript-brunch": "^2.0.0",
+    "jshint-brunch": "^2.0.0",
+    "karma": "*",
+    "karma-jasmine": "^1.0.2",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "phantomjs-prebuilt": "^2.1.7",
+    "sass-brunch": "^2.6.2",
+    "uglify-js-brunch": "^2.0.1"
   }
 }
